@@ -8,14 +8,12 @@ public class MesaInt extends javax.swing.JFrame {
     public MesaInt() {
         initComponents();
     }
-public int NumeroCelulares;
- private List<Celular> Celular; 
-    public String Size;
-    public showBehavior showBehavior;
-    public showBehavior use;  
-    public void setIcons(showBehavior s){    
-    }
-    public void AcomodarCelulares(){
+    
+    public String Size;   
+    private List<Celular> Celular; 
+   
+    public void AcomodarCelulares(Celular Celular[]){
+        
     }
    
     @SuppressWarnings("unchecked")
@@ -45,8 +43,13 @@ public int NumeroCelulares;
             }
         });
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/nex.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/nexus.png"))); // NOI18N
         jButton4.setText("LGQ6");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -104,6 +107,10 @@ public int NumeroCelulares;
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments

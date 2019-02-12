@@ -8,7 +8,10 @@ public abstract class Celular {
     public String Pantalla;
     public String Bateria;
     public String Sistema;
-    public int Precio;
+    public String VSistema;
+    public String Precio;
     public String Camara;
     public String Procesador;  
+    public void SetInfo(){    
+    }
 }
