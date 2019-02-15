@@ -13,7 +13,8 @@ public class MesaInt extends javax.swing.JFrame {
     public MesaInt() {
         initComponents();
         texto1.setVisible(false);
-      
+        texto11.setVisible(false);   
+   
     }
     
     public String Size;   
@@ -32,48 +33,51 @@ public class MesaInt extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        nexus = new javax.swing.JButton();
+        moto = new javax.swing.JButton();
+        iphone = new javax.swing.JButton();
+        lg = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         label1 = new javax.swing.JLabel();
         texto1 = new javax.swing.JTextField();
         boton1 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        texto11 = new javax.swing.JTextField();
+        boton11 = new javax.swing.JButton();
+        boton12 = new javax.swing.JButton();
+        texto12 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/nexus.png"))); // NOI18N
-        jButton1.setText("Nexus");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        nexus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/nexus.png"))); // NOI18N
+        nexus.setText("Nexus");
+        nexus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                nexusActionPerformed(evt);
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/motog5.jpeg"))); // NOI18N
-        jButton2.setText("Moto G5");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        moto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/motog5.jpeg"))); // NOI18N
+        moto.setText("Moto G5");
+        moto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                motoActionPerformed(evt);
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/iphone.png"))); // NOI18N
-        jButton3.setText("iPhone8");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        iphone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/iphone.png"))); // NOI18N
+        iphone.setText("iPhone8");
+        iphone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                iphoneActionPerformed(evt);
             }
         });
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/LG.png"))); // NOI18N
-        jButton4.setText("LGQ6");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        lg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/LG.png"))); // NOI18N
+        lg.setText("LGQ6");
+        lg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                lgActionPerformed(evt);
             }
         });
 
@@ -81,29 +85,29 @@ public class MesaInt extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(moto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(lg, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(nexus, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton3))
+                .addComponent(iphone))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jButton3)
+                .addComponent(iphone)
                 .addGap(7, 7, 7)
-                .addComponent(jButton1)
+                .addComponent(nexus)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton2)
+                .addComponent(moto)
                 .addGap(18, 18, 18)
-                .addComponent(jButton4)
+                .addComponent(lg)
                 .addContainerGap(37, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        label1.setLabelFor(jButton1);
+        label1.setLabelFor(nexus);
 
         texto1.setBackground(new java.awt.Color(51, 51, 51));
         texto1.setForeground(new java.awt.Color(255, 255, 255));
@@ -129,6 +133,36 @@ public class MesaInt extends javax.swing.JFrame {
             }
         });
 
+        texto11.setBackground(new java.awt.Color(51, 51, 51));
+        texto11.setForeground(new java.awt.Color(255, 255, 255));
+        texto11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                texto11ActionPerformed(evt);
+            }
+        });
+
+        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
+        boton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton11ActionPerformed(evt);
+            }
+        });
+
+        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
+        boton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton12ActionPerformed(evt);
+            }
+        });
+
+        texto12.setBackground(new java.awt.Color(51, 51, 51));
+        texto12.setForeground(new java.awt.Color(255, 255, 255));
+        texto12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                texto12ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -136,37 +170,52 @@ public class MesaInt extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(116, 116, 116)
                         .addComponent(boton1, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(texto1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jButton5)))
-                .addGap(290, 484, Short.MAX_VALUE))
+                        .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jButton5)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(boton11, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(texto11, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(boton12, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(texto12, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(446, 612, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(texto1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(boton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(texto1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(boton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(texto11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(boton11, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(boton12, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(texto12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(41, 41, 41)
                 .addComponent(jButton5)
-                .addContainerGap(453, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         label1.getAccessibleContext().setAccessibleName("jLabel1");
-
-        jButton6.setText("Inicial");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -175,59 +224,64 @@ public class MesaInt extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton6)
-                .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(jButton6)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void iphoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iphoneActionPerformed
         guardado=1; 
        
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_iphoneActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void lgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lgActionPerformed
 guardado=4;
        
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_lgActionPerformed
 
     private void texto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto1ActionPerformed
        
     }//GEN-LAST:event_texto1ActionPerformed
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1ActionPerformed
+          
+         // boton12.setVisible(false);
         texto1.setText("Intento");
+       
     }//GEN-LAST:event_boton1ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void nexusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nexusActionPerformed
 guardado=2;
        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_nexusActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void motoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_motoActionPerformed
 guardado=3;
       
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_motoActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        texto1.setVisible(true);
+          texto1.setVisible(true);
+          texto11.setVisible(true);
+         // boton11.setVisible(true);
         if(guardado==1){
+        //   texto1.setVisible(true);
              texto1.setText(" ");
-           boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
+             texto11.setText(" ");
+             texto12.setText(" ");
+           
         label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-  }
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+ 
+        }
          else if(guardado==2){
           texto1.setText(" ");
          boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
@@ -249,9 +303,21 @@ guardado=3;
          }
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-      texto1.setVisible(false);
-    }//GEN-LAST:event_jButton6ActionPerformed
+    private void texto11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_texto11ActionPerformed
+
+    private void boton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton11ActionPerformed
+         texto11.setText("Intento");
+    }//GEN-LAST:event_boton11ActionPerformed
+
+    private void boton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_boton12ActionPerformed
+
+    private void texto12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_texto12ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -290,15 +356,18 @@ guardado=3;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton1;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
+    private javax.swing.JButton boton11;
+    private javax.swing.JButton boton12;
+    private javax.swing.JButton iphone;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel label1;
+    private javax.swing.JButton lg;
+    private javax.swing.JButton moto;
+    private javax.swing.JButton nexus;
     private javax.swing.JTextField texto1;
+    private javax.swing.JTextField texto11;
+    private javax.swing.JTextField texto12;
     // End of variables declaration//GEN-END:variables
 }
