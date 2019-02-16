@@ -112,8 +112,9 @@ public class MesaInt extends javax.swing.JFrame {
                 .addContainerGap(37, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
 
+        label1.setBackground(new java.awt.Color(153, 153, 153));
         label1.setLabelFor(nexus);
 
         texto1.setBackground(new java.awt.Color(51, 51, 51));
