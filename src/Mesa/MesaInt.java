@@ -126,7 +126,7 @@ public class MesaInt extends javax.swing.JFrame {
 
         boton1.setBackground(new java.awt.Color(51, 51, 51));
         boton1.setForeground(new java.awt.Color(51, 51, 51));
-        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/precio.png"))); // NOI18N
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/peso.jpg"))); // NOI18N
         boton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton1ActionPerformed(evt);
@@ -148,14 +148,14 @@ public class MesaInt extends javax.swing.JFrame {
             }
         });
 
-        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/precio.png"))); // NOI18N
+        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/bat.jpg"))); // NOI18N
         boton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton11ActionPerformed(evt);
             }
         });
 
-        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/precio.png"))); // NOI18N
+        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/cam.jpg"))); // NOI18N
         boton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton12ActionPerformed(evt);
@@ -177,7 +177,7 @@ public class MesaInt extends javax.swing.JFrame {
             }
         });
 
-        boton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/precio.png"))); // NOI18N
+        boton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/memo.jpg"))); // NOI18N
         boton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton13ActionPerformed(evt);
