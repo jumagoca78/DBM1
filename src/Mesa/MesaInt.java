@@ -1,12 +1,15 @@
 
 package Mesa;
 
+import java.awt.Cursor;
 import static java.awt.SystemColor.text;
 import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.List;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class MesaInt extends javax.swing.JFrame {
 
@@ -16,18 +19,95 @@ public class MesaInt extends javax.swing.JFrame {
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false);  
+      //  texto14.setVisible(false);  
+        //this.jButton5.setVisible(false);
+        
+        label1.setText("Aqui!!");
+         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        //label1.addMouseListener(new MouseAdapter()
+        label1.addMouseListener(new MouseAdapter() 
+        
+        
+    {  
+    public void mouseClicked(MouseEvent e)  
+    {  
+       // you can open a new frame here as
+       // i have assumed you have declared "frame" as instance variable
+        label1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        
+        if(guardado==1){
+        //   texto1.setVisible(true);
+             texto1.setText(" ");
+             texto11.setText(" ");
+             texto12.setText(" ");
+             texto13.setText(" ");
+     //        texto14.setText(" ");
+        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
+        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        //boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        }
+         else if(guardado==2){
+          texto1.setText(" ");
+          texto11.setText(" ");
+           texto12.setText(" ");
+             texto13.setText(" ");
+             //texto14.setText(" ");
+       //  boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
+        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\nexus.png")); 
+      //  boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+       boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+      //  boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+         }
+         else if(guardado==3){
+               texto1.setText(" ");
+                texto11.setText(" ");
+           texto12.setText(" ");
+             texto13.setText(" ");
+        //     texto14.setText(" ");
+     // boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
+      label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\motog5.jpeg")); 
+      boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        //boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+         
+         }
+         else if(guardado==4){
+              texto1.setText(" ");
+               texto11.setText(" ");
+           texto12.setText(" ");
+             texto13.setText(" ");
+            // texto14.setText(" ");
+       // boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
+        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\LG.png")); 
+       boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        //boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+         
+         }
+    }  
+    });     
    
-    }
-    
+}
+
     public String Size;   
     private List<Celular> Celular; 
       int guardado;
      int boton;
    
-    public void AcomodarCelulares(Celular Celular[]){
-        
-    }
+
   
     //public void actionPerformed(ActionEvent e) { textfield.setText("123");}
    
@@ -44,15 +124,12 @@ public class MesaInt extends javax.swing.JFrame {
         label1 = new javax.swing.JLabel();
         texto1 = new javax.swing.JTextField();
         boton1 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
         texto11 = new javax.swing.JTextField();
         boton11 = new javax.swing.JButton();
         boton12 = new javax.swing.JButton();
         texto12 = new javax.swing.JTextField();
-        boton14 = new javax.swing.JButton();
         boton13 = new javax.swing.JButton();
         texto13 = new javax.swing.JTextField();
-        texto14 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -112,7 +189,7 @@ public class MesaInt extends javax.swing.JFrame {
                 .addContainerGap(37, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
         label1.setBackground(new java.awt.Color(153, 153, 153));
         label1.setLabelFor(nexus);
@@ -127,17 +204,10 @@ public class MesaInt extends javax.swing.JFrame {
 
         boton1.setBackground(new java.awt.Color(51, 51, 51));
         boton1.setForeground(new java.awt.Color(51, 51, 51));
-        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/peso.jpg"))); // NOI18N
         boton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton1ActionPerformed(evt);
-            }
-        });
-
-        jButton5.setText("Aqui");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
             }
         });
 
@@ -149,14 +219,16 @@ public class MesaInt extends javax.swing.JFrame {
             }
         });
 
-        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
+        boton11.setBackground(new java.awt.Color(51, 51, 51));
+        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/bat.jpg"))); // NOI18N
         boton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton11ActionPerformed(evt);
             }
         });
 
-        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
+        boton12.setBackground(new java.awt.Color(51, 51, 51));
+        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/cam.jpg"))); // NOI18N
         boton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton12ActionPerformed(evt);
@@ -171,14 +243,8 @@ public class MesaInt extends javax.swing.JFrame {
             }
         });
 
-        boton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
-        boton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                boton14ActionPerformed(evt);
-            }
-        });
-
-        boton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/fondo.png"))); // NOI18N
+        boton13.setBackground(new java.awt.Color(51, 51, 51));
+        boton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/memo.jpg"))); // NOI18N
         boton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton13ActionPerformed(evt);
@@ -190,14 +256,6 @@ public class MesaInt extends javax.swing.JFrame {
         texto13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 texto13ActionPerformed(evt);
-            }
-        });
-
-        texto14.setBackground(new java.awt.Color(51, 51, 51));
-        texto14.setForeground(new java.awt.Color(255, 255, 255));
-        texto14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                texto14ActionPerformed(evt);
             }
         });
 
@@ -213,11 +271,7 @@ public class MesaInt extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(texto1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(texto14, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(12, 12, 12)
@@ -232,13 +286,7 @@ public class MesaInt extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(texto12, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(texto13, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(44, 44, 44)
-                        .addComponent(jButton5))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(boton14, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(texto13, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                 .addGap(446, 612, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -262,14 +310,7 @@ public class MesaInt extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(boton13, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(texto13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(boton14, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(texto14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(39, 39, 39)
-                .addComponent(jButton5)
+                    .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -314,11 +355,11 @@ guardado=4;
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false);      
+   //     texto14.setVisible(false);      
         boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+     //   boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
          // boton12.setVisible(false);
         texto1.setText("Intento");
         }
@@ -326,24 +367,24 @@ guardado=4;
             texto11.setVisible(true);
              texto12.setVisible(true);
               texto13.setVisible(true);
-               texto14.setVisible(true);
+            //   texto14.setVisible(true);
         texto1.setText(" ");
         texto11.setText(" ");
              texto12.setText(" ");
              texto13.setText(" ");
-             texto14.setText(" ");
+            // texto14.setText(" ");
       //  label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+       // boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
         boton=0;
           texto1.setVisible(false); 
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false);      
+      //  texto14.setVisible(false);      
         }
        
     }//GEN-LAST:event_boton1ActionPerformed
@@ -358,70 +399,6 @@ guardado=3;
       
     }//GEN-LAST:event_motoActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        //  texto1.setVisible(true);
-          //texto11.setVisible(true);
-         // boton11.setVisible(true);
-        if(guardado==1){
-        //   texto1.setVisible(true);
-             texto1.setText(" ");
-             texto11.setText(" ");
-             texto12.setText(" ");
-             texto13.setText(" ");
-             texto14.setText(" ");
-        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        }
-         else if(guardado==2){
-          texto1.setText(" ");
-          texto11.setText(" ");
-           texto12.setText(" ");
-             texto13.setText(" ");
-             texto14.setText(" ");
-         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
-        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\nexus.png")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-          boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-         }
-         else if(guardado==3){
-               texto1.setText(" ");
-                texto11.setText(" ");
-           texto12.setText(" ");
-             texto13.setText(" ");
-             texto14.setText(" ");
-      boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
-      label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\motog5.jpeg")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-         
-         }
-         else if(guardado==4){
-              texto1.setText(" ");
-               texto11.setText(" ");
-           texto12.setText(" ");
-             texto13.setText(" ");
-             texto14.setText(" ");
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
-        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\LG.png")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-         
-         }
-    }//GEN-LAST:event_jButton5ActionPerformed
-
     private void texto11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_texto11ActionPerformed
@@ -429,80 +406,83 @@ guardado=3;
     private void boton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton11ActionPerformed
        boton++;
         if(boton==1){
-            texto11.setVisible(true);  
+              texto11.setVisible(true); 
         texto1.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false);      
+   //     texto14.setVisible(false);      
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+     //   boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
          // boton12.setVisible(false);
         texto11.setText("Intento");
         }
         if(boton==2){
-            texto1.setVisible(true);
+            texto11.setVisible(true);
              texto12.setVisible(true);
               texto13.setVisible(true);
-               texto14.setVisible(true);
-               texto1.setText(" ");
+            //   texto14.setVisible(true);
+        texto1.setText(" ");
         texto11.setText(" ");
              texto12.setText(" ");
              texto13.setText(" ");
-             texto14.setText(" ");
+            // texto14.setText(" ");
       //  label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+       // boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
         boton=0;
-         texto1.setVisible(false); 
+          texto1.setVisible(false); 
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false); 
+      //  texto14.setVisible(false);      
         }
+       
     }//GEN-LAST:event_boton11ActionPerformed
 
     private void boton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton12ActionPerformed
-      boton++;
+       boton++;
         if(boton==1){
+              texto12.setVisible(true); 
         texto1.setVisible(false);  
         texto11.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false); 
-         texto12.setVisible(true); 
+   //     texto14.setVisible(false);      
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+     //   boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+         // boton12.setVisible(false);
         texto12.setText("Intento");
         }
         if(boton==2){
-            texto1.setVisible(true);
-             texto11.setVisible(true);
+            texto11.setVisible(true);
+             texto12.setVisible(true);
               texto13.setVisible(true);
-               texto14.setVisible(true);
-               texto12.setText(" ");
+            //   texto14.setVisible(true);
+        texto1.setText(" ");
         texto11.setText(" ");
              texto12.setText(" ");
              texto13.setText(" ");
-             texto14.setText(" ");
+            // texto14.setText(" ");
       //  label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+       // boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
         boton=0;
-         texto1.setVisible(false); 
+          texto1.setVisible(false); 
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false); 
+      //  texto14.setVisible(false);      
         }
+       
            
     }//GEN-LAST:event_boton12ActionPerformed
 
@@ -510,57 +490,17 @@ guardado=3;
         // TODO add your handling code here:
     }//GEN-LAST:event_texto12ActionPerformed
 
-    private void boton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton14ActionPerformed
-         boton++;
-        if(boton==1){
-            texto14.setVisible(true);  
-        texto1.setVisible(false);  
-        texto11.setVisible(false);  
-        texto13.setVisible(false);  
-        texto12.setVisible(false);      
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-         // boton12.setVisible(false);
-        texto14.setText("Intento");
-        }
-        if(boton==2){
-            texto1.setVisible(true);
-             texto11.setVisible(true);
-              texto13.setVisible(true);
-               texto14.setVisible(true);
-               texto1.setText(" ");
-        texto11.setText(" ");
-             texto12.setText(" ");
-             texto13.setText(" ");
-             texto14.setText(" ");
-      //  label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton=0;
-         texto1.setVisible(false); 
-        texto11.setVisible(false);  
-        texto12.setVisible(false);  
-        texto13.setVisible(false);  
-        texto14.setVisible(false); 
-        }
-    }//GEN-LAST:event_boton14ActionPerformed
-
     private void boton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton13ActionPerformed
          boton++;
         if(boton==1){
             texto13.setVisible(true);  
         texto1.setVisible(false);  
         texto11.setVisible(false);  
-        texto14.setVisible(false);  
+      //  texto14.setVisible(false);  
         texto12.setVisible(false);      
         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+       // boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
         boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
          // boton12.setVisible(false);
         texto13.setText("Intento");
@@ -569,24 +509,24 @@ guardado=3;
             texto1.setVisible(true);
              texto11.setVisible(true);
               texto13.setVisible(true);
-               texto14.setVisible(true);
+      //         texto14.setVisible(true);
                texto1.setText(" ");
         texto11.setText(" ");
              texto12.setText(" ");
              texto13.setText(" ");
-             texto14.setText(" ");
+        //     texto14.setText(" ");
       //  label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+       // boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
         boton=0;
          texto1.setVisible(false); 
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-        texto14.setVisible(false); 
+       // texto14.setVisible(false); 
         }
     }//GEN-LAST:event_boton13ActionPerformed
 
@@ -594,10 +534,11 @@ guardado=3;
         // TODO add your handling code here:
     }//GEN-LAST:event_texto13ActionPerformed
 
-    private void texto14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto14ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_texto14ActionPerformed
-
+    
+    
+    
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -638,9 +579,7 @@ guardado=3;
     private javax.swing.JButton boton11;
     private javax.swing.JButton boton12;
     private javax.swing.JButton boton13;
-    private javax.swing.JButton boton14;
     private javax.swing.JButton iphone;
-    private javax.swing.JButton jButton5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel label1;
@@ -651,6 +590,5 @@ guardado=3;
     private javax.swing.JTextField texto11;
     private javax.swing.JTextField texto12;
     private javax.swing.JTextField texto13;
-    private javax.swing.JTextField texto14;
     // End of variables declaration//GEN-END:variables
 }
