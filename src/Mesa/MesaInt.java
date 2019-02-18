@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class MesaInt extends javax.swing.JFrame {
+public class MesaInt  extends javax.swing.JFrame {
 
     public MesaInt() {
         initComponents();
@@ -22,10 +22,10 @@ public class MesaInt extends javax.swing.JFrame {
         texto13.setVisible(false);  
         label1.setText("Aqui!!");
        
-         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
         
         //Elementos de segunda seccion
         texto2.setVisible(false);
@@ -33,10 +33,10 @@ public class MesaInt extends javax.swing.JFrame {
         texto22.setVisible(false);  
         texto23.setVisible(false);  
          label2.setText("Aqui");
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
         
         //Elementos de tercera seccion
         texto3.setVisible(false);
@@ -44,10 +44,10 @@ public class MesaInt extends javax.swing.JFrame {
         texto32.setVisible(false);  
         texto33.setVisible(false);  
          label3.setText("Aqui");
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
      
         //Elementos de cuarta seccion
         texto4.setVisible(false);
@@ -55,10 +55,10 @@ public class MesaInt extends javax.swing.JFrame {
         texto42.setVisible(false);  
         texto43.setVisible(false);  
          label4.setText("Aqui");
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
         
              //funcion de label4
         label4.addMouseListener(new MouseAdapter()
@@ -72,66 +72,68 @@ public class MesaInt extends javax.swing.JFrame {
          texto41.setVisible(false);  
         texto42.setVisible(false);  
         texto43.setVisible(false);  
-            boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+            boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
         
         labelc++;
             if(labelc==1){
                  label4.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                    if(guardado==1){
-             texto4.setText(" ");
-             texto41.setText(" ");
-             texto42.setText(" ");
-             texto43.setText(" ");
+                       iPhone8 iphone = new iPhone8();
+             texto4.setText(iphone.Precio);
+             texto41.setText(iphone.Bateria);
+             texto42.setText(iphone.Camara);
+             texto43.setText(iphone.Memoria);
 
-        label4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+        label4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\iphone.png")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                 else   if(guardado==2){
-      
-             texto4.setText(" ");
-             texto41.setText(" ");
-             texto42.setText(" ");
-             texto43.setText(" ");
-               label4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\nexus.png")); 
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+                 Nexus6P nexus = new Nexus6P();
+             texto4.setText(nexus.Precio);
+             texto41.setText(nexus.Bateria);
+             texto42.setText(nexus.Camara);
+             texto43.setText(nexus.Memoria);
+               label4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\nexus.png")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   else  if(guardado==3){
-             texto4.setText(" ");
-             texto41.setText(" ");
-             texto42.setText(" ");
-             texto43.setText(" ");
-        label4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\motog5.jpeg")); 
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+                      MotoG5 moto = new MotoG5();
+             texto4.setText(moto.Precio);
+             texto41.setText(moto.Bateria);
+             texto42.setText(moto.Camara);
+             texto43.setText(moto.Memoria);
+        label4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\motog5.jpeg")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   else  if(guardado==4){
-      
-              texto4.setText(" ");
-             texto41.setText(" ");
-             texto42.setText(" ");
-             texto43.setText(" ");
+                LGQ6 lg = new LGQ6();
+              texto4.setText(lg.Precio);
+             texto41.setText(lg.Bateria);
+             texto42.setText(lg.Camara);
+             texto43.setText(lg.Memoria);
    
-        label4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\LG.png")); 
-       boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+        label4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\LG.png")); 
+       boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   
                    }
             if(labelc==2){
-          boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   label4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\fondo.png")); 
+          boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   label4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
    labelc=0;      
             }
         }
@@ -149,66 +151,71 @@ public class MesaInt extends javax.swing.JFrame {
          texto31.setVisible(false);  
         texto32.setVisible(false);  
         texto33.setVisible(false);  
-            boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+            boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
   
         labelv++;
             if(labelv==1){
                  label3.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                    if(guardado==1){
-             texto3.setText(" ");
-             texto31.setText(" ");
-             texto32.setText(" ");
-             texto33.setText(" ");
+                      iPhone8 iphone = new iPhone8();
+             texto3.setText(iphone.Precio);
+             texto31.setText(iphone.Bateria);
+             texto32.setText(iphone.Camara);
+             texto33.setText(iphone.Memoria);
+             
 
         label3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                 else   if(guardado==2){
-      
-             texto3.setText(" ");
-             texto31.setText(" ");
-             texto32.setText(" ");
-             texto33.setText(" ");
+                    Nexus6P nexus = new Nexus6P();
+             texto3.setText(nexus.Precio);
+             texto31.setText(nexus.Bateria);
+             texto32.setText(nexus.Camara);
+             texto33.setText(nexus.Memoria);
+
                label3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\nexus.png")); 
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   else  if(guardado==3){
-             texto3.setText(" ");
-             texto31.setText(" ");
-             texto32.setText(" ");
-             texto33.setText(" ");
+                 MotoG5 moto = new MotoG5();
+             texto3.setText(moto.Precio);
+             texto31.setText(moto.Bateria);
+             texto32.setText(moto.Camara);
+             texto33.setText(moto.Memoria);
+             
         label3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\motog5.jpeg")); 
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   else  if(guardado==4){
-        //   texto1.setVisible(true);
-              texto3.setText(" ");
-             texto31.setText(" ");
-             texto32.setText(" ");
-             texto33.setText(" ");
-     //        texto14.setText(" ");
+                                         LGQ6 lg = new LGQ6();
+             texto3.setText(lg.Precio);
+             texto31.setText(lg.Bateria);
+             texto32.setText(lg.Camara);
+             texto33.setText(lg.Memoria);
+       
         label3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\LG.png")); 
-       boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+       boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   
                    }
             if(labelv==2){
-          boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   label3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\fondo.png")); 
+          boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   label3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
    labelv=0;      
             }
         }
@@ -225,70 +232,68 @@ public class MesaInt extends javax.swing.JFrame {
          texto21.setVisible(false);  
         texto22.setVisible(false);  
         texto23.setVisible(false);  
-            boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+            boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
         
         label1++;
             if(label1==1){
                  label2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                    if(guardado==1){
-        //   texto1.setVisible(true);
-             texto2.setText(" ");
-             texto21.setText(" ");
-             texto22.setText(" ");
-             texto23.setText(" ");
-     //        texto14.setText(" ");
-        label2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+                       iPhone8 iphone = new iPhone8();
+             texto2.setText(iphone.Precio);
+             texto21.setText(iphone.Bateria);
+             texto22.setText(iphone.Camara);
+             texto23.setText(iphone.Memoria);
+             
+        label2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\iphone.png")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                 else   if(guardado==2){
-        //   texto1.setVisible(true);
-             texto2.setText(" ");
-             texto21.setText(" ");
-             texto22.setText(" ");
-             texto23.setText(" ");
-     //        texto14.setText(" ");
-               label2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\nexus.png")); 
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+                     Nexus6P nexus = new Nexus6P();
+             texto2.setText(nexus.Precio);
+             texto21.setText(nexus.Bateria);
+             texto22.setText(nexus.Camara);
+             texto23.setText(nexus.Memoria);
+
+               label2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\nexus.png")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   else  if(guardado==3){
-        //   texto1.setVisible(true);
-             texto2.setText(" ");
-             texto21.setText(" ");
-             texto22.setText(" ");
-             texto23.setText(" ");
-     //        texto14.setText(" ");
-        label2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\motog5.jpeg")); 
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+         MotoG5 moto = new MotoG5();
+             texto2.setText(moto.Precio);
+             texto21.setText(moto.Bateria);
+             texto22.setText(moto.Camara);
+             texto23.setText(moto.Memoria);
+        label2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\motog5.jpeg")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   else  if(guardado==4){
-        //   texto1.setVisible(true);
-              texto2.setText(" ");
-             texto21.setText(" ");
-             texto22.setText(" ");
-             texto23.setText(" ");
-     //        texto14.setText(" ");
-        label2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\LG.png")); 
-       boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg"));  }
+        LGQ6 lg = new LGQ6();
+              texto2.setText(lg.Precio);
+             texto21.setText(lg.Bateria);
+             texto22.setText(lg.Camara);
+             texto23.setText(lg.Memoria);
+        label2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\LG.png")); 
+       boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg"));  }
                   
                    }
             if(label1==2){
-          boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   label2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\fondo.png")); 
+          boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   label2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
    label1=0;
                    
                  
@@ -308,78 +313,83 @@ public class MesaInt extends javax.swing.JFrame {
         texto11.setVisible(false);  
         texto12.setVisible(false);  
         texto13.setVisible(false);  
-            boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+            boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
         
         label ++;
         if(label==1){
         label1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         if(guardado==1){
-        
-             texto1.setText(" ");
-             texto21.setText(" ");
-             texto12.setText(" ");
-             texto13.setText(" ");
-        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\iphone.png")); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        iPhone8 iphone = new iPhone8();
+             texto1.setText(iphone.Precio);
+             texto21.setText(iphone.Bateria);
+             texto12.setText(iphone.Camara);
+             texto13.setText(iphone.Memoria);
+
+        label1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\iphone.png")); 
+        boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        }
          else if(guardado==2){
-          texto1.setText(" ");
-          texto21.setText(" ");
-           texto12.setText(" ");
-             texto13.setText(" ");
-             //texto14.setText(" ");
+            Nexus6P nexus = new Nexus6P();
+             texto1.setText(nexus.Precio);
+             texto21.setText(nexus.Bateria);
+             texto12.setText(nexus.Camara);
+             texto13.setText(nexus.Memoria);
        //  boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
-        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\nexus.png")); 
+        label1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\nexus.png")); 
       //  boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-       boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+       boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\recio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
       //  boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
          }
          else if(guardado==3){
-               texto1.setText(" ");
-                texto21.setText(" ");
-           texto12.setText(" ");
-             texto13.setText(" ");
-        //     texto14.setText(" ");
+                  MotoG5 moto = new MotoG5();
+             texto1.setText(moto.Precio);
+             texto21.setText(moto.Bateria);
+             texto12.setText(moto.Camara);
+             texto13.setText(moto.Memoria);
+               
      // boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
-      label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\motog5.jpeg")); 
-      boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+      label1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\motog5.jpeg")); 
+      boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
         //boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
          
          }
          else if(guardado==4){
-              texto1.setText(" ");
-               texto21.setText(" ");
-           texto12.setText(" ");
-             texto13.setText(" ");
+             LGQ6 lg = new LGQ6();
+              texto1.setText(lg.Precio);
+             texto21.setText(lg.Bateria);
+             texto12.setText(lg.Camara);
+             texto13.setText(lg.Memoria);
+             
+ 
             // texto14.setText(" ");
        // boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));   
-        label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\LG.png")); 
-       boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        label1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\LG.png")); 
+       boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
         //boton14.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
          
          }
     } 
          else if(label==2){
-                  boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-   label1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\fondo.png")); 
+                  boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   label1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
    label=0;
                 }
     }
@@ -524,7 +534,7 @@ public class MesaInt extends javax.swing.JFrame {
 
         boton1.setBackground(new java.awt.Color(51, 51, 51));
         boton1.setForeground(new java.awt.Color(51, 51, 51));
-        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/peso.jpg"))); // NOI18N
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/andr.jpg"))); // NOI18N
         boton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton1ActionPerformed(evt);
@@ -540,7 +550,7 @@ public class MesaInt extends javax.swing.JFrame {
         });
 
         boton11.setBackground(new java.awt.Color(51, 51, 51));
-        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/bat.jpg"))); // NOI18N
+        boton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/cam.jpg"))); // NOI18N
         boton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton11ActionPerformed(evt);
@@ -548,7 +558,7 @@ public class MesaInt extends javax.swing.JFrame {
         });
 
         boton12.setBackground(new java.awt.Color(51, 51, 51));
-        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/cam.jpg"))); // NOI18N
+        boton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mesa/imagenes/bat.jpg"))); // NOI18N
         boton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton12ActionPerformed(evt);
@@ -992,25 +1002,27 @@ guardado=4;
         boton++;
         if(boton==1){
               texto1.setVisible(true); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+       iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto1.setText("Intento1");}
+             texto1.setText(iphone8.Precio);}
         if(guardado==2){
-           texto1.setText("Intento2");}
+           texto1.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto1.setText("Intento3");}
+           texto1.setText(iphone8.Camara);}
         if(guardado==4){
-           texto1.setText("Intento4");}
+           texto1.setText(iphone8.Memoria);}
         }
-        if(boton==2){   
-        texto1.setText(" ");
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        if(boton==2){ 
+             iPhone8 iphone8 = new iPhone8();
+        texto1.setText(iphone8.Precio);
+        boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        boton=0;
           texto1.setVisible(false);     
         }
@@ -1035,24 +1047,25 @@ guardado=3;
         boton++;
         if(boton==1){
               texto11.setVisible(true);  
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-      if(guardado==1){
-           texto11.setText("Intento1");}
+        boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+      iPhone8 iphone8 = new iPhone8();
+        if(guardado==1){
+             texto11.setText(iphone8.Precio);}
         if(guardado==2){
-           texto11.setText("Intento2");}
+           texto11.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto11.setText("Intento3");}
+           texto11.setText(iphone8.Camara);}
         if(guardado==4){
-           texto11.setText("Intento4");}
+           texto11.setText(iphone8.Memoria);}
         }
         if(boton==2){
        texto11.setText(" ");
-         boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+         boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        boton=0;
         texto11.setVisible(false);  
         }
@@ -1063,24 +1076,25 @@ guardado=3;
         boton++;
         if(boton==1){
               texto12.setVisible(true); 
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-       if(guardado==1){
-           texto12.setText("Intento1");}
+        boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+   iPhone8 iphone8 = new iPhone8();
+        if(guardado==1){
+             texto12.setText(iphone8.Precio);}
         if(guardado==2){
-           texto12.setText("Intento2");}
+           texto12.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto12.setText("Intento3");}
+           texto12.setText(iphone8.Camara);}
         if(guardado==4){
-           texto12.setText("Intento4");}
+           texto12.setText(iphone8.Memoria);}
         }
         if(boton==2){   
             texto12.setText(" ");
-            boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+            boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        boton=0;    
         texto12.setVisible(false);      
         }
@@ -1096,24 +1110,26 @@ guardado=3;
         boton++;
         if(boton==1){
             texto13.setVisible(true);     
-        boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-       boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+       boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto13.setText("Intento1");}
+             texto13.setText(iphone8.Precio);}
         if(guardado==2){
-           texto13.setText("Intento2");}
+           texto13.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto13.setText("Intento3");}
+           texto13.setText(iphone8.Camara);}
         if(guardado==4){
-           texto13.setText("Intento4");}
+           texto13.setText(iphone8.Memoria);}
+        
         }
         if(boton==2){
              texto13.setText(" ");
-       boton1.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton11.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton12.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton13.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+       boton1.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton11.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton12.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton13.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
         boton=0;
         texto13.setVisible(false);  
         }
@@ -1127,25 +1143,25 @@ guardado=3;
         botonp++;
         if(botonp==1){
               texto2.setVisible(true);    
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto2.setText("Intento1");}
+             texto2.setText(iphone8.Precio);}
         if(guardado==2){
-           texto2.setText("Intento2");}
+           texto2.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto2.setText("Intento3");}
+           texto2.setText(iphone8.Camara);}
         if(guardado==4){
-           texto2.setText("Intento4");}
-        
+           texto2.setText(iphone8.Memoria);}
         }
         if(botonp==2){
         texto2.setText(" ");
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
       botonp=0;
         texto2.setVisible(false);      
         }
@@ -1156,24 +1172,25 @@ guardado=3;
         botonp++;
         if(botonp==1){
               texto21.setVisible(true);    
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto21.setText("Intento1");}
+             texto21.setText(iphone8.Precio);}
         if(guardado==2){
-           texto21.setText("Intento2");}
+           texto21.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto21.setText("Intento3");}
+           texto21.setText(iphone8.Camara);}
         if(guardado==4){
-           texto21.setText("Intento4");}    
+           texto21.setText(iphone8.Memoria);}
         }
         if(botonp==2){
         texto21.setText(" ");
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
       botonp=0;
         texto21.setVisible(false);      
         }
@@ -1184,24 +1201,25 @@ guardado=3;
         botonp++;
         if(botonp==1){
               texto22.setVisible(true);    
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto22.setText("Intento1");}
+             texto22.setText(iphone8.Precio);}
         if(guardado==2){
-           texto22.setText("Intento2");}
+           texto22.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto22.setText("Intento3");}
+           texto22.setText(iphone8.Camara);}
         if(guardado==4){
-           texto22.setText("Intento4");}    
+           texto22.setText(iphone8.Memoria);}
         }
         if(botonp==2){
         texto22.setText(" ");
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
       botonp=0;
         texto22.setVisible(false);      
         }
@@ -1212,24 +1230,25 @@ guardado=3;
         botonp++;
         if(botonp==1){
               texto23.setVisible(true);    
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+      iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto23.setText("Intento1");}
+             texto23.setText(iphone8.Precio);}
         if(guardado==2){
-           texto23.setText("Intento2");}
+           texto23.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto23.setText("Intento3");}
+           texto23.setText(iphone8.Camara);}
         if(guardado==4){
-           texto23.setText("Intento4");}    
+           texto23.setText(iphone8.Memoria);}
         }
         if(botonp==2){
         texto23.setText(" ");
-        boton2.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton21.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton22.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton23.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton2.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton21.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton22.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton23.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
       botonp=0;
         texto23.setVisible(false);      
         }
@@ -1255,25 +1274,26 @@ guardado=3;
              botont++;
         if(botont==1){
               texto3.setVisible(true); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto3.setText("Intento1");}
+             texto3.setText(iphone8.Precio);}
         if(guardado==2){
-           texto3.setText("Intento2");}
+           texto3.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto3.setText("Intento3");}
+           texto3.setText(iphone8.Camara);}
         if(guardado==4){
-           texto3.setText("Intento4");}
+           texto3.setText(iphone8.Memoria);}
         }
         if(botont==2){   
         texto3.setText(" ");
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botont=0;
           texto3.setVisible(false);     
         }
@@ -1283,25 +1303,26 @@ guardado=3;
         botont++;
         if(botont==1){
               texto31.setVisible(true); 
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto31.setText("Intento1");}
+             texto31.setText(iphone8.Precio);}
         if(guardado==2){
-           texto31.setText("Intento2");}
+           texto31.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto31.setText("Intento3");}
+           texto31.setText(iphone8.Camara);}
         if(guardado==4){
-           texto31.setText("Intento4");}
+           texto31.setText(iphone8.Memoria);}
         }
         if(botont==2){   
         texto31.setText(" ");
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botont=0;
           texto31.setVisible(false);     
         }
@@ -1311,25 +1332,26 @@ guardado=3;
         botont++;
         if(botont==1){
               texto32.setVisible(true); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+       iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto32.setText("Intento1");}
+             texto32.setText(iphone8.Precio);}
         if(guardado==2){
-           texto32.setText("Intento2");}
+           texto32.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto32.setText("Intento3");}
+           texto32.setText(iphone8.Camara);}
         if(guardado==4){
-           texto32.setText("Intento4");}
+           texto32.setText(iphone8.Memoria);}
         }
         if(botont==2){   
         texto32.setText(" ");
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botont=0;
           texto32.setVisible(false);     
         }
@@ -1339,25 +1361,26 @@ guardado=3;
         botont++;
         if(botont==1){
               texto33.setVisible(true); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+       iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto33.setText("Intento1");}
+             texto33.setText(iphone8.Precio);}
         if(guardado==2){
-           texto33.setText("Intento2");}
+           texto33.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto33.setText("Intento3");}
+           texto33.setText(iphone8.Camara);}
         if(guardado==4){
-           texto33.setText("Intento4");}
+           texto33.setText(iphone8.Memoria);}
         }
         if(botont==2){   
         texto33.setText(" ");
-        boton3.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton31.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton32.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton33.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton3.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton31.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton32.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton33.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botont=0;
           texto33.setVisible(false);     
         }
@@ -1383,25 +1406,26 @@ guardado=3;
              botonc++;
         if(botonc==1){
               texto4.setVisible(true); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+       iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto4.setText("Intento1");}
+             texto4.setText(iphone8.Precio);}
         if(guardado==2){
-           texto4.setText("Intento2");}
+           texto4.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto4.setText("Intento3");}
+           texto4.setText(iphone8.Camara);}
         if(guardado==4){
-           texto4.setText("Intento4");}
+           texto4.setText(iphone8.Memoria);}
         }
         if(botonc==2){   
         texto4.setText(" ");
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botonc=0;
           texto4.setVisible(false);     
         }
@@ -1411,25 +1435,26 @@ guardado=3;
         botonc++;
         if(botonc==1){
               texto41.setVisible(true); 
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto41.setText("Intento1");}
+             texto41.setText(iphone8.Precio);}
         if(guardado==2){
-           texto41.setText("Intento2");}
+           texto41.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto41.setText("Intento3");}
+           texto41.setText(iphone8.Camara);}
         if(guardado==4){
-           texto41.setText("Intento4");}
+           texto41.setText(iphone8.Memoria);}
         }
         if(botonc==2){   
         texto41.setText(" ");
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botonc=0;
           texto41.setVisible(false);     
         }
@@ -1439,25 +1464,26 @@ guardado=3;
          botonc++;
         if(botonc==1){
               texto42.setVisible(true); 
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto42.setText("Intento1");}
+             texto42.setText(iphone8.Precio);}
         if(guardado==2){
-           texto42.setText("Intento2");}
+           texto42.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto42.setText("Intento3");}
+           texto42.setText(iphone8.Camara);}
         if(guardado==4){
-           texto42.setText("Intento4");}
+           texto42.setText(iphone8.Memoria);}
         }
         if(botonc==2){   
         texto42.setText(" ");
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botonc=0;
           texto42.setVisible(false);     
         }
@@ -1467,25 +1493,26 @@ guardado=3;
        botonc++;
         if(botonc==1){
               texto43.setVisible(true); 
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\fondo.png"));
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\fondo.png"));
        //Separacion en tipo de telefono
+        iPhone8 iphone8 = new iPhone8();
         if(guardado==1){
-           texto43.setText("Intento1");}
+             texto43.setText(iphone8.Precio);}
         if(guardado==2){
-           texto43.setText("Intento2");}
+           texto43.setText(iphone8.Bateria);}
         if(guardado==3){
-           texto43.setText("Intento3");}
+           texto43.setText(iphone8.Camara);}
         if(guardado==4){
-           texto43.setText("Intento4");}
+           texto43.setText(iphone8.Memoria);}
         }
         if(botonc==2){   
         texto43.setText(" ");
-        boton4.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\precio.png")); 
-        boton41.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\bat.jpg")); 
-        boton42.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\cam.jpg")); 
-        boton43.setIcon(new ImageIcon("C:\\Users\\mitre\\Desktop\\dbm\\pro1\\DBM1\\src\\Mesa\\imagenes\\memo.jpg")); 
+        boton4.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\precio.png")); 
+        boton41.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\bat.jpg")); 
+        boton42.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\cam.jpg")); 
+        boton43.setIcon(new ImageIcon("C:\\Users\\valeria\\Documents\\NetBeansProjects\\Mesa\\src\\Mesa\\imagenes\\memo.jpg")); 
        botonc=0;
           texto43.setVisible(false);     
         }

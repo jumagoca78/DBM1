@@ -374,7 +374,7 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Mesa/imagenes/peso.jpg"/>
+              <Image iconType="3" name="/Mesa/imagenes/andr.jpg"/>
             </Property>
           </Properties>
           <Events>
@@ -400,7 +400,7 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Mesa/imagenes/bat.jpg"/>
+              <Image iconType="3" name="/Mesa/imagenes/cam.jpg"/>
             </Property>
           </Properties>
           <Events>
@@ -413,7 +413,7 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Mesa/imagenes/cam.jpg"/>
+              <Image iconType="3" name="/Mesa/imagenes/bat.jpg"/>
             </Property>
           </Properties>
           <Events>
