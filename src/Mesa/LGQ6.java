@@ -3,14 +3,13 @@ public class LGQ6 extends Celular {
     public LGQ6() {
     }
     public void setInfo(){ 
-      Medidas="75x74";
-      Memoria="10 gb";
-      Pantalla="7421";
-      Bateria="100";
-      Sistema="Android";
-      VSistema="Oreo 1.9";
-      Precio="$43456";
-      Camara="213";
-      Procesador="4.5";  
+      Medidas="142x69x8mm";
+      Memoria="10gb";
+      Pantalla="5.5in";
+      Bateria="3000mAh";
+      Sistema="Android Nougat";
+      Precio="$3000";
+      Camara="13mp";
+      Procesador="Snapdragon 435";  
     }
 }

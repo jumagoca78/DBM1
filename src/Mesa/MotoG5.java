@@ -3,14 +3,13 @@ public class MotoG5 extends Celular {
     public MotoG5() {
     }
     public void setInfo(){ 
-      Medidas="75x74";
-      Memoria="10 gb";
-      Pantalla="7421";
-      Bateria="100";
-      Sistema="Android";
-      VSistema="Oreo 1.9";
-      Precio="$43456";
-      Camara="213";
-      Procesador="4.5";  
+      Medidas="144.3x73x9.5mm";
+      Memoria="8gb";
+      Pantalla="5in";
+      Bateria="2.800mAh";
+      Sistema="Android Nougat";
+      Precio="$2500";
+      Camara="13mp";
+      Procesador="Snapdragon 430";  
     }
 }
