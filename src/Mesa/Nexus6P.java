@@ -1,9 +1,7 @@
 package Mesa;
 public class Nexus6P extends Celular {
     public Nexus6P() {
-    }
-    public void setInfo(){ 
-      Medidas="75x74";
+         Medidas="75x74";
       Memoria="10 gb";
       Pantalla="7421";
       Bateria="100";
@@ -12,5 +10,8 @@ public class Nexus6P extends Celular {
       Precio="$43456";
       Camara="213";
       Procesador="4.5";  
+    }
+    public void setInfo(){ 
+     
     }
 }
